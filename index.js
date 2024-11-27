@@ -136,7 +136,7 @@ const main = async () => {
         )
       );
 
-      await sleep(15000);
+      await sleep(15000); // SET DELAY TIME
 
       let receipt;
       try {
